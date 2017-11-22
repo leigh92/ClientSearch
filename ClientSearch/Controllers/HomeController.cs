@@ -22,7 +22,7 @@ namespace ClientSearch.Controllers
                                        || s.mobile.Contains(searchString)).ToList(); //handles searching for user input
             }
 
-            if (searchString != null) //no result return page
+            if (searchString != null) 
             {
                 page = 1;
             }
