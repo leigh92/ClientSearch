@@ -7,6 +7,6 @@ namespace ClientSearch.Models
 {
     public class ApiClients
     {
-        public List<ApiClient> clients { get; set; } //gives a list form of the API data
+        public List<ApiClient> clients { get; set; } 
     }
 }
